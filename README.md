@@ -1,3 +1,6 @@
+##LIVE DEMO
+  visit: https://todo-tailnode.netlify.app/
+
 ## Features
   
   1. You can add Todo(s) on pressing the return-key
@@ -6,6 +9,8 @@
   4. The active TODO cards should appear in order of creation (most recent on top)
   5 . A reset button on the top right corner of the App to clear all Todo(s) and return to the initial state.
   6. Hitting the refresh button (including hard refresh) in the browser should not cause any change in the state of the app (it should work like a regular offline app).
+
+
 
 # Getting Started with Create React App
 
