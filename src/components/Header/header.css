@@ -11,12 +11,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 12%;
+    width: auto;
     height: 35px;
     border-radius: 25px;
     background-color: #000000;
     color : #ffffff;
     padding: 0px 10px 0px 10px;
+}
+i{
+    padding: 0 5px;
 }
 .reset:hover{
     cursor: pointer;
@@ -24,16 +27,6 @@
 
 @media screen and (max-width: 700px) {
     .reset{  
-        width: 18%;
-        font-size: 14px;
-    }
-    h2{
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 450px) {
-    .reset{  
-        width: 25%;
         font-size: 14px;
     }
     h2{
