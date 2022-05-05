@@ -1,0 +1,40 @@
+.input{
+    height: 45px;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px;
+    font-size: larger;
+    padding-left: 50px;
+}
+.input:focus{
+    border: 3px solid rgb(164, 224, 210);
+    box-shadow: 5px 5px 5px  rgba(166, 233, 217, 0.4);
+}
+.inputHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    margin-left: 5px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: large;
+    width: 20%;
+}
+.btn:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
+    background-color: #34c7a4;
+    
+}
+.add{
+    color: black;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
